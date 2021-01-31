@@ -16,7 +16,7 @@ jobs:
           - os: ubuntu-latest
             node_version: 6
           - os: macos-latest
-            node_version: 7
+            node_version: 6
     runs-on: ${{ matrix.os }}
     env:
       IS_UBUNTU_8: ${{ matrix.is_ubuntu_8 }}
